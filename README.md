@@ -39,7 +39,6 @@ This project demonstrates core Android development concepts including UI layouts
 ---
 
 ## 👩🏽‍💻 Author
-Brianna Brockington
 **Brianna Brockington**  
 Software Engineering Student | Android Developer  
 GitHub: https://github.com/briannab1997
