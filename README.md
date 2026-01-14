@@ -26,7 +26,7 @@ This project demonstrates core Android development concepts including UI layouts
 ---
 
 ## 📱 Screenshot
-<img width="1080" height="2400" alt="taskflow" src="https://github.com/user-attachments/assets/33186572-a8c4-4034-a6c4-8f92a7b9e94d" />
+<img width="800" height="800" alt="taskflow" src="https://github.com/user-attachments/assets/33186572-a8c4-4034-a6c4-8f92a7b9e94d" />
 
 
 ---
