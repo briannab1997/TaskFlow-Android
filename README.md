@@ -1,44 +1,66 @@
-# TaskFlow 📋
+# Bloom 🌸
 
-TaskFlow is a basic Android task management application built using **Kotlin** and **XML**.  
-The app allows users to add tasks dynamically and remove them with a long-press gesture.
-
-This project demonstrates core Android development concepts including UI layouts, RecyclerView usage, and adapter-based state management.
+Bloom is a modern Android task management app built with **Kotlin**, **MVVM architecture**, and **Room database**. It's designed to be clean, fast, and intuitive — helping you stay on top of your day without the clutter.
 
 ---
 
-## ✨ Features
-- Add tasks in real time
-- Display tasks using RecyclerView
-- Remove tasks with long-press interaction
-- Clean, minimal XML-based UI
-- Runs on Android Emulator
+## Features
+
+- Add tasks via an elegant bottom sheet with a floating action button
+- Assign priority levels — Low, Medium, or High — with color-coded indicators
+- Tap to check off tasks with a satisfying strikethrough effect
+- Swipe left or right to delete tasks, with an Undo option
+- Tasks persist across app sessions using a local Room database
+- Live task count that updates in real time
+- Warm coral + cream UI with full dark mode support
+- Empty state screen when your list is clear
 
 ---
 
-## 🛠️ Tech Stack
-- Kotlin
-- XML Layouts
-- RecyclerView
-- Android Studio
-- Android Emulator
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Language | Kotlin |
+| Architecture | MVVM (ViewModel + LiveData) |
+| Database | Room (SQLite) |
+| Dependency Injection | Manual (Repository pattern) |
+| Async | Kotlin Coroutines |
+| UI | XML Layouts + Material Design 3 |
+| Build | Gradle Kotlin DSL + KSP |
 
 ---
 
-## 📱 Screenshot
-<img width="400" height="800" alt="taskflow" src="https://github.com/user-attachments/assets/33186572-a8c4-4034-a6c4-8f92a7b9e94d" />
+## Architecture
 
+```
+app/
+├── data/
+│   ├── Task.kt              # Room entity + Priority enum
+│   ├── TaskDao.kt           # Database access object
+│   ├── TaskDatabase.kt      # Singleton Room database
+│   └── TaskRepository.kt    # Data access abstraction
+├── viewmodel/
+│   └── TaskViewModel.kt     # UI state + business logic
+├── TaskAdapter.kt           # RecyclerView with DiffUtil
+└── MainActivity.kt          # Single-activity entry point
+```
 
 ---
 
-## 🚀 Getting Started
-1. Clone the repository
-2. Open the project in Android Studio
-3. Run the app using an Android Emulator (API 33+ recommended)
+## Getting Started
+
+1. Clone this repository
+2. Open the project in Android Studio (Hedgehog or newer)
+3. Let Gradle sync and download dependencies
+4. Run on an emulator or device (API 24+)
+
+No API keys or backend setup required — everything runs locally.
 
 ---
 
-## 👩🏽‍💻 Author
-**Brianna Brockington**  
-Software Engineering Student | Android Developer  
+## Author
+
+**Brianna Brockington**
+Software Engineering Student
 GitHub: https://github.com/briannab1997

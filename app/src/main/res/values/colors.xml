@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Legacy required -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Bloom Palette -->
+    <color name="bloom_coral">#FF6B6B</color>
+    <color name="bloom_coral_dark">#E85555</color>
+    <color name="bloom_peach">#FFA07A</color>
+    <color name="bloom_cream">#FEFAF6</color>
+    <color name="bloom_white">#FFFFFF</color>
+    <color name="bloom_surface">#FFFBF7</color>
+
+    <!-- Text -->
+    <color name="bloom_dark">#1C1B1E</color>
+    <color name="bloom_gray">#8E8E93</color>
+    <color name="bloom_light_gray">#F4F0EB</color>
+    <color name="bloom_divider">#EDE8E1</color>
+
+    <!-- Priority Colors -->
+    <color name="bloom_green">#30D158</color>
+    <color name="bloom_green_dark">#1A8C37</color>
+    <color name="bloom_yellow">#FFCC00</color>
+    <color name="bloom_yellow_dark">#A07800</color>
+    <color name="bloom_red">#FF453A</color>
+    <color name="bloom_red_light">#FFCDD2</color>
 </resources>

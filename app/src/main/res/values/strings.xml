@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">TaskFlow</string>
+    <string name="app_name">Bloom</string>
+    <string name="add_task_hint">What do you need to do?</string>
+    <string name="priority_label">Priority</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+    <string name="add_task_button">Add Task</string>
+    <string name="new_task_title">New Task</string>
+    <string name="empty_title">Nothing on your list yet</string>
+    <string name="empty_subtitle">Tap + to add your first task</string>
+    <string name="task_deleted">Task deleted</string>
+    <string name="undo">Undo</string>
+    <string name="all_done">All done — you\'re crushing it 🌸</string>
+    <string name="fab_description">Add task</string>
 </resources>
