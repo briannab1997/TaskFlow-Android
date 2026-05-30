@@ -2,6 +2,14 @@
 
 Bloom is a modern Android task management app built with **Kotlin**, **MVVM architecture**, and **Room database**. It's designed to be clean, fast, and intuitive — helping you stay on top of your day without the clutter.
 
+## Screenshot
+
+![Bloom task management app](assets/taskflow.png)
+
+## Why This Project
+
+Bloom shows Android fundamentals in a focused, useful app: persistent local data, task state updates, priority handling, RecyclerView interactions, and a clean single-purpose user experience. It is intentionally simple, but it demonstrates the kind of structure needed for maintainable mobile development.
+
 ---
 
 ## Features
@@ -14,6 +22,16 @@ Bloom is a modern Android task management app built with **Kotlin**, **MVVM arch
 - Live task count that updates in real time
 - Warm coral + cream UI with full dark mode support
 - Empty state screen when your list is clear
+
+## Skills Demonstrated
+
+- Android development with Kotlin
+- MVVM architecture
+- Room database persistence
+- RecyclerView and DiffUtil
+- Coroutines
+- Material Design UI
+- Local data modeling
 
 ---
 
